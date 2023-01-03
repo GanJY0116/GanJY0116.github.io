@@ -1,0 +1,168 @@
+/* Start */
+body{
+    background-image: url(image/earth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+header{
+    background-color: beige; 
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    float: left;
+    width: 110px;
+    height: 110px;
+}
+header h1{
+    padding-left: 30px;
+    font-size: 4em;
+}
+.link{
+    margin-left: 140px;
+    margin-right: 0;
+}
+.link a{
+    background-color: rgb(139, 67, 15);
+    color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 8px 10px;
+    margin-inline: 20px;
+    font-size: 1.5em;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+.link a:hover{
+    color: black;
+    transition: 1s;
+    z-index: 2;
+}
+/* End */
+
+.welcome{
+    margin: 0 25px;
+}
+.welcome img{
+    margin-top: 32px;
+    width: 440px;
+    max-width: 440px;
+
+}
+.welcome p{
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    background-color: rgb(202, 207, 218);
+    opacity: 80%;
+    width: 29.85em;
+    height: 380px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+main h2{
+    font-size: 3em;
+    background-color: rgb(8, 65, 65);
+    width: fit-content;
+    border-radius: 20px 20px;
+    padding: 3px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-style: italic;
+}
+
+video{
+    border: solid 30px white;
+    margin-left: 60px;
+    margin-right: auto;
+}
+
+.troye{
+    width: 350px;
+    height: 350px;
+    border: white 10px solid;
+    
+}
+.star{
+    display: flex;
+    margin-left: 50px;
+}
+.list{
+    background-color: grey;
+    height: 340px;
+    padding: 15px 20px;
+
+}
+.list li{
+    padding: 20px 0;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+.star h4{
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+    font-size: 35px;
+    font-weight: bold;
+}
+.add{
+    border: white 10px solid;
+    width: 285px;
+    height: 350px;
+}
+/* .troye{
+    width: 350px;
+    height: 350px;
+    margin-top: 96px;
+    margin-left: 50px;
+    float: left;
+    
+}
+.list{
+    background-color: grey;
+    width: 700px;
+    height: 360px;
+    color: black;
+
+    margin-left: 60px;
+    margin-top: 5em;
+    padding-left: 400px;
+    padding-top: 20px;
+}
+.list li{
+    padding: 20px 0;
+}
+.add{
+    float: right;
+    margin-top: 95px;
+    margin-right: 150px;
+}
+.star{
+    overflow: auto;
+    display: inline;
+
+}
+
+}
+.star li{
+    font-size: 30px;
+} */
+
+
+footer{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 55px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: black;
+    background-color: aliceblue;
+    border-top: solid black 5px;
+}
+footer h3{
+    margin: 0;
+    font-size: 2em;
+}

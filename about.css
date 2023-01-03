@@ -1,0 +1,99 @@
+/* Start of banner */
+body{
+    background-image: url(image/earth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+header{
+    background-color: beige; 
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    float: left;
+    width: 110px;
+    height: 110px;
+}
+header h1{
+    padding-right: 100px;
+    font-size: 4em;
+}
+.link{
+    margin-left: 140px;
+    margin-right: 0;
+}
+.link a{
+    background-color: rgb(139, 67, 15);
+    color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 8px 10px;
+    margin-inline: 20px;
+    font-size: 1.5em;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+.link a:hover{
+    color: black;
+    transition: 1s;
+    z-index: 2;
+}
+/* End of banner */
+
+.wrapper h1 {
+
+    border-radius: 15px 30px 100px 5px ;
+    text-align: left;
+    padding: 20px;
+    width: 300px;
+    padding-left: 12em;
+    padding-right: 6em;
+    padding-bottom: .38em;
+    font-size: 3em;
+    border-radius: 20px 20px 20px 20px;
+
+}
+.wrapper{
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px #828282;
+    padding: 25px;
+    margin: 3em;
+}
+.wrapper header {
+    /* background-image: url(image/pinelogo.png); */
+    background-color: #B7CDF0;
+    border-bottom: #B7CDF0 solid;
+    height: 100px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.wrapper img {
+    float: left;
+    border-right: 3px solid #191970;
+    margin-top: 2.6px;
+    
+}
+
+.wrapper p {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+/* footer */
+footer{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 55px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: black;
+    background-color: aliceblue;
+    border-top: solid black 5px;
+}
+footer h3{
+    margin: 0;
+    font-size: 2em;
+}
